@@ -459,6 +459,11 @@ footer{
         font-size:var(--medium);
     }
 
+    .nav__list{
+        display:flex;
+        gap:2.5em;
+    }
+
     .intro__text--title > h1{
         font-size:var(--max);
         line-height: 1.1;
