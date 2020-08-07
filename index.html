@@ -10,6 +10,7 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="style.css">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald:wght@700&display=swap" rel="stylesheet"> 
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -18,10 +19,191 @@
         <!-- Header -->
         <header>
             <!-- Navigation Bar -->
-            <nav class="nav">
-                
-            </nav>
+            <div class="container">
+
+                <button class="nav-toggle" aria-label="open navigation">
+                    <span class="hamburger"></span>
+                </button>
+
+                <a href="#" class="logo">
+                    <img src="./Img/logo.svg" alt="Conquering Responsive Layout">
+                </a>
+
+                <nav class="nav">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">About</a></li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">Contact</a></li>
+
+                        <li class="nav__item"><a href="#" class="nav__link">Sign In</a></li>
+
+                        <li class="nav__item item"><a href="#" class="nav__link nav__link--button">Sign Up</a></li>
+                    </ul>
+                </nav>
+
+            </div>
         </header>
-        <script src="" async defer></script>
+
+        <main>
+
+            <section class="intro row">
+
+                <div class="container">
+
+                    <div class="intro__text--title">
+                        <h1>Responsive Layout <span class="intro__text--title-span">don't have to be a struggle</span></h1>
+                    </div>
+
+                    <div class="intro--subtext">
+                        <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+                        <button type="submit" class="intro--subtext__button">I want to learn</button>
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="primary-content row">
+
+                <div class="container">
+
+                    <div class="col">
+
+                        <h3>Mobile-first</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+                    </div>
+                    <div class="col">
+
+                        <h3>Efficient</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+                    </div>
+                    <div class="col">
+
+                        <h3>Done Right</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+                    </div>
+
+                </div>
+
+            </section>
+
+            <section class="secondary-content row">
+
+                <div class="container">
+
+                    <div class="content">
+
+                        <h3>It doesn't have to be so hard</h3>
+
+                        <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                            Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam
+                        </p>
+
+                        <img src="./Img/the-image.jpg" alt="the-image">
+
+                        <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam. 
+                            Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+                    </div>
+
+                    <aside class="aside">
+
+                        <div class="sidebar">
+
+                            <h3>Break it down</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua.</p>
+
+                        </div>
+                        <div class="sidebar">
+
+                            <h3>Work your way up</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua.</p>
+
+                        </div>
+                        <div class="sidebar">
+
+                            <h3>Done Right</h3>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua.</p>
+
+                        </div>
+
+                    </aside>
+
+                </div>
+
+            </section>
+
+            <footer class="footer row">
+
+                <div class="container">
+
+                    <h2>Just scratching the surface</h2>
+
+                    <div class="footer-content">
+
+                        <div>
+
+                            <h4>About our company</h4>
+
+                            <p>Lorem ipsum dolor sit amet consectetur, sed do eiusmod incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam</p>
+
+                        </div>
+
+                        <div>
+
+                            <h4>Getting around</h4>
+
+                            <ul>
+                                    <li><a href="#" class="footer__link">Home</a></li>
+                                    <li><a href="#" class="footer__link">Around</a></li>
+                                    <li><a href="#" class="footer__link">Contact</a></li>
+                            </ul>
+
+                        </div>
+
+                        <div>
+
+                                <h4>Other things</h4>
+
+                                <ul>
+                                    <li><a href="#" class="footer__link">Lorem ipsum</a></li>
+                                    <li><a href="#" class="footer__link">dolor</a></li>
+                                    <li><a href="#" class="footer__link">sit amet</a></li>
+                                    <li><a href="#" class="footer__link">consectetur</a></li>
+                                </ul>
+
+                        </div>
+
+                        <div>
+
+                                <h4>And more</h4>
+
+                                <ul>
+
+                                    <li><a href="#" class="footer__link">Lorem ipsum</a></li>
+                                    <li><a href="#" class="footer__link">dolor</a></li>
+                                    <li><a href="#" class="footer__link">sit amet</a></li>
+                                    <li><a href="#" class="footer__link">consectetur</a></li>
+                                </ul>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </footer>
+        </main>
+        <script src="main.js"></script>
     </body>
 </html>
