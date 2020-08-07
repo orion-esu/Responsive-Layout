@@ -1,6 +1,6 @@
 ## Responsive Layout
 
-[Design preview for the The Final Project of The 21-Day Responsive Design Challenge Course](./design/design-preview.png)
+[Design preview for the The Final Project of The 21-Day Responsive Design Challenge Course](https://github.com/orion-esu/Responsive-Layout-Project/blob/master/Design/design-preview.png)
 
 
 The Final Project of The 21-Day Responsive Design Challenge Course taught by [Kevin Powell](https://www.kevinpowell.co/) and implemented by Myself 🚀
